@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    
+}
+img{
+    width: 100%;
+    height: 600px;
+}
+ul{
+    list-style: none;
+}
+.header-area {
+	padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    
+}
+.logo a {
+	font-size: 30px;
+	font-weight: 600;
+}
+.menu ul {
+	display: flex;
+
+}
+.menu li a {
+	margin-left: 30px;
+}
+
+
+.menu ul li a:hover {
+	color: tomato;
+	transition: .3s;
+}
+
+/* Banner section */
+.banner-img{
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+/* About  Section */
+.about-area{
+    padding: 80px 0;
+}
+.about-title {
+	text-align: center;
+	margin-bottom: 45px;
+}
+.about-title h4 {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+.about {
+	display: flex;
+	text-align: center;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+.about h4 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.single-about {
+    flex-basis: 32%;
+    border: 1px solid #ddd;
+    padding: 40px 20px;
+  }
+  .single-about:hover{
+    border: 2px solid tomato;
+  }
+/* Services Section */
+
+.services-area {
+    background: #f2f2;
+    padding: 80px 0;
+  }
+  .title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+.servises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .single-services img{
+    height: 350px;
+  }
+  .single-services {
+    background: #d3d4d387;
+    flex-basis: 32%;
+    padding: 20px;
+  }
+  
+.single-services h4 {
+    font-size: 24px;
+    text-align: center;
+    background: teal;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px 0;
+  }
+
+  
+.single-services p {
+    line-height: 26px;
+    margin: 25px 0;
+  }
+  .single-services a {
+    background: tomato;
+    color: #fff;
+    padding: 15px 32px;
+    display:block;
+  }
+    .btn a:hover {
+  background: white;
+  color: tomato;
+  transition: .3s;
+}
+
+/* gallery area
+ */
+.gallary-area {
+  padding: 60px 0;
+}
+ .gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-gallery {
+  flex-basis: 23%;
+  margin-bottom: 28px;
+  
+}
+.single-gallery img{
+  height: 300px;
+}
+ 
